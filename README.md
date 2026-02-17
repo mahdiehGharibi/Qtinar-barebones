@@ -1,7 +1,6 @@
 # Minimal Multiboot Kernel — Technical Overview
 
-![Screenshot]([https://github.com/USERNAME/REPO/raw/main/images/screenshot.png](https://github.com/mahdiehGharibi/Qtinar-barebones/blob/main/kernelv0-1.png
-)
+![Screenshot](https://github.com/mahdiehGharibi/Qtinar-barebones/blob/346022854bd0f89c23b6c02ca9e297dab177c22b/kernelv0-1.png)
 
 ## 1. Introduction
 
