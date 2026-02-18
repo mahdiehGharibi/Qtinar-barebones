@@ -12,7 +12,7 @@ The purpose of this kernel is educational: to demonstrate the complete boot flow
 The kernel is Multiboot-compliant and is loaded by the GRUB bootloader.
 Its only runtime functionality is writing text directly to VGA text-mode memory.
 
----
+
 
 ## 2. System Architecture
 
@@ -34,7 +34,7 @@ The kernel operates in a freestanding environment:
 * No runtime
 * Direct hardware access
 
----
+
 
 ## 3. Boot Process
 
@@ -45,7 +45,7 @@ The kernel operates in a freestanding environment:
 5. Execution begins at the `_start` symbol.
 6. `_start` calls `kernel_main()` implemented in C.
 
----
+
 
 ## 4. Boot Assembly (boot.s)
 
@@ -70,7 +70,7 @@ The `_start` symbol:
 
 This ensures deterministic behavior if the kernel exits.
 
----
+
 
 ## 5. Kernel Implementation (kernel.c)
 
@@ -97,7 +97,7 @@ This confirms that:
 * The kernel is executing
 * Hardware access is functional
 
----
+
 
 ## 6. Linker Script (linker.ld)
 
@@ -122,7 +122,7 @@ Sections defined:
 * `.data`
 * `.bss`
 
----
+
 
 ## 7. Build Environment
 
@@ -145,7 +145,7 @@ Build tools:
 * GRUB utilities
 * QEMU emulator
 
----
+
 
 ## 8. Kernel Characteristics
 
@@ -166,7 +166,6 @@ Not yet implemented:
 
 This makes the kernel a **minimal proof-of-execution kernel**.
 
----
 
 ## 9. Educational Value
 
@@ -185,7 +184,7 @@ It serves as the foundation for future development such as:
 * Device drivers
 * Virtual memory
 
----
+
 
 ## 10. Conclusion
 
@@ -197,4 +196,4 @@ Boot → Load → Execute → Hardware Output
 
 While minimal, it represents the first milestone in operating system development and provides a solid base for expanding into a fully featured kernel.
 
----
+
